@@ -1,0 +1,175 @@
+/*---------------------- Hero Section ----------------------*/
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+/* Hero Left */
+.hero-left {
+    flex: 1; 
+    max-width: 600px; 
+}
+
+.hero-left p {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 50px;
+}
+
+.hero-left h2 {
+    color: white;
+    font-size: 24px; 
+}
+
+.hero-left h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero-left span {
+    color: rgba(49, 170, 226, 0.884);
+}
+
+.hero-left .refrels {
+    margin-top: 30px;
+}
+
+/* Hero Right */
+.hero-right {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 390px; 
+}
+
+.hero-right img {
+    width: 100%; 
+    max-width: 390px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+/* Social Icons */
+.refrels a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgba(49, 170, 226, 0.884);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgba(49, 170, 226, 0.884);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: all 0.3s ease; 
+}
+
+.refrels a:hover {
+    background: rgba(49, 170, 226, 0.884);
+    color: white; 
+    box-shadow: 0 0 20px rgba(49, 170, 226, 0.884);
+}
+
+/* Button */
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgba(49, 170, 226, 0.884);
+    border-radius: 48px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px rgba(49, 170, 226, 0.884),
+                0 0 25px rgba(49, 170, 226, 0.884),
+                0 0 50px rgba(49, 170, 226, 0.884),
+                0 0 100px rgba(49, 170, 226, 0.884),
+                0 0 200px rgba(49, 170, 226, 0.884);
+}
+
+/*---------------------- Responsive Design ----------------------*/
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column-reverse; /* Stacks elements vertically on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-left {
+        max-width: 100%; /* Allow full width for text */
+    }
+
+    .hero-left h1 {
+        font-size: 40px; /* Slightly reduce the font size for medium screens */
+    }
+
+    .hero-left p {
+        font-size: 18px; /* Adjust text size for better readability */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-left h1 {
+        font-size: 35px; /* Further reduce the font size for smaller screens */
+    }
+
+    .hero-left p {
+        font-size: 16px; /* Adjust text size for better readability */
+    }
+
+    .hero-right img {
+        max-width: 300px; /* Reduce the image size on smaller screens */
+    }
+
+    .btn-box {
+        padding: 10px 20px; /* Adjust button padding for smaller screens */
+        font-size: 14px; /* Slightly reduce font size */
+    }
+
+    .refrels a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-left h1 {
+        font-size: 28px; /* Further reduce font size for mobile devices */
+    }
+
+    .hero-left p {
+        font-size: 14px; /* Smaller font size for mobile readability */
+    }
+
+    .hero-right img {
+        max-width: 250px; /* Further reduce image size for mobile */
+    }
+
+    .btn-box {
+        padding: 8px 18px; /* Adjust button padding for mobile */
+        font-size: 12px; /* Reduce font size for mobile */
+    }
+
+    .refrels a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}

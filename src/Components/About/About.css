@@ -1,0 +1,32 @@
+.about-wrapper{
+    display: flex;
+    justify-content: space-around; /* Changed from space-around for better responsiveness */
+    padding: 14px;
+    padding-top: 150px;
+    align-items: center;
+
+}
+
+.about-right h1{
+    color: white;
+    font-size: 40px;
+}
+.about-right span{
+    color:  rgba(49, 170, 226, 0.884);
+}
+.about-right h2{
+    color: white;
+    padding-top: 10px;
+}
+.about-right p{
+    color: white;
+    padding-top: 40px;line-height: 30px;
+    font-size: 17px;
+}
+
+.about-left img{
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
+    border-radius: 50%; 
+}

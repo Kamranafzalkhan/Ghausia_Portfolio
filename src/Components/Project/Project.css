@@ -1,0 +1,10 @@
+.hover-effect li:hover {
+    color: rgba(49, 170, 226, 0.884);
+  }
+.hover-effect li{
+    padding-top: 10px;
+    font-size: 17px;
+    /* border: 3px solid green; */
+}
+
+  

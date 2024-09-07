@@ -1,0 +1,32 @@
+.achivement-wrapper h1 span{
+    color: rgba(49, 170, 226, 0.884);
+}
+.achivement-wrapper h1{
+    color: white;
+}
+.achivement-wrapper{
+    padding-top: 100px;
+}
+.achivement-body p{
+    color: white;
+    padding-left: 15%;
+    /* padding-top: 150px; */
+    font-size: 20px;
+}
+.achivement-body p span{
+    color: blueviolet;
+    font-weight: 600;
+}
+.achivement-body{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.btn-box{
+    /* width: 35px; */
+    /* padding-top: 10px; */
+    height: 30px;
+    /* padding-right: 10px; */
+    /* padding-top: 50px; */
+}
