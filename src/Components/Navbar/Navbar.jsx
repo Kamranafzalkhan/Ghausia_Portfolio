@@ -9,7 +9,7 @@ const [menu, setMenu] = useState("Home");
         </div>
         <ul className="nav-menu">
             <li>
-            <a href="#Home"  onClick={()=>{setMenu("Home")}}>Home</a>
+            <a href="#Hero"  onClick={()=>{setMenu("Home")}}>Home</a>
                 {menu === "Home" ? <hr /> : null}
             </li>
             <li>
