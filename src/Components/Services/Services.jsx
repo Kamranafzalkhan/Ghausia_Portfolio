@@ -44,7 +44,12 @@ const Services = () => {
                 <p>DNS is the fundamental system that translates human-readable domain names into IP addresses and UltraDNS is a premium, managed DNS service offered by Neustar </p>
                 <a href="https://vercara.com/ultra-dns-public" className="btn-box">Know More</a>
             </div>
-            
+            <div className="management">
+                <h3>Netscout Patching
+                </h3>
+                <p>Process of applying software updates or patches to NetScout systems or products to fix bugs, address security vulnerabilities, or improve performance. </p>
+                <a href="https://www.netscout.com/?utm_source=bing&utm_campaign=search-brand-campaign&utm_medium=cpc&utm_content=home_page&utm_keyword=netscout&msclkid=c320b0708b1d1c6d634bd84d5a069d3c" className="btn-box">Know More</a>
+            </div>
         </div>
     </div>
   )

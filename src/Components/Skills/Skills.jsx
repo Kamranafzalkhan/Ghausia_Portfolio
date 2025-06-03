@@ -17,10 +17,12 @@ function Skills() {
                     <li>Devices upgrade (Router , switched LB)</li>
                     <li>ServiceNow</li>
                     <li>Solarwind</li>
+                    <li>Netscout Patching</li>
                     <li>RCA preparation and delivery within TAT</li>
                     <li>Handling the service fault</li>
                     <li>Infobox for DNS</li>
                     <li>Ultra DNS</li>
+                    <li>AWS Cloud </li>
                     <li>MS Excel</li>
                     <li>MS Word</li>
                     <li>MS Visio</li>
