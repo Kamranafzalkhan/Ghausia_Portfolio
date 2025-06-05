@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css';
 import Ghausia from '../../Assets/Ghausia_1.png';
-import pdf from '../Hero/Ghausia_cv.pdf';
+//import pdf from '../Hero/Ghausia_cv.pdf';
+//import pdff from '../Hero/Ghausia_cv(1).pdf';
 const Hero = () => {
   return (
     <div className="hero" id="Hero">
@@ -15,7 +16,7 @@ const Hero = () => {
             <a href="https://www.instagram.com/ghausiaafzal?igsh=MTRrMnpyNG5vMnk0YQ=="><i className='bx bxl-instagram' ></i></a>
             <a href="https://www.linkedin.com/in/ghausia-afzal-5b0728234/"><i className='bx bxl-linkedin' ></i></a>
         </div>
-        <a href={pdf} className="btn-box">More About Me</a>
+        <a href="https://drive.google.com/file/d/1-jdqsbXGGS8HVPmVYuWtQHsgOocp5-r0/view?usp=drivesdk" className="btn-box">More About Me</a>
         </div>
         <div className="hero-right">
             <img src={Ghausia} alt="ghausia" />
