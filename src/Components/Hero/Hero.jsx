@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css';
 import Ghausia from '../../Assets/Ghausia_1.png';
+import '@splinetool/viewer';
 //import pdf from '../Hero/Ghausia_cv.pdf';
 //import pdff from '../Hero/Ghausia_cv(1).pdf';
 const Hero = () => {
@@ -19,7 +20,11 @@ const Hero = () => {
         <a href="https://drive.google.com/file/d/1-jdqsbXGGS8HVPmVYuWtQHsgOocp5-r0/view?usp=drivesdk" className="btn-box">More About Me</a>
         </div>
         <div className="hero-right">
-            <img src={Ghausia} alt="ghausia" />
+            <spline-viewer
+          class="robot"
+          url="https://prod.spline.design/9nDuBRwxuWA7FBZw/scene.splinecode"
+          style={{ width: '100%', height: '1100px' }}
+        ></spline-viewer>
         </div>
     </div>
   )

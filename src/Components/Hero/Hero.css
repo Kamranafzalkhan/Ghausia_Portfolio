@@ -3,8 +3,9 @@
 .hero {
     display: flex;
     justify-content: space-around;
-    padding-top: 200px;
+    /* padding-top: 20px; */
     align-items: center;
+    /* margin: -10; */
     flex-wrap: wrap; 
     gap: 20px; 
 }
