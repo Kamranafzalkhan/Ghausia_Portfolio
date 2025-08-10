@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css';
-import Ghausia from '../../Assets/Ghausia_1.png';
+// import Ghausia from '../../Assets/Ghausia_1.png';
 import '@splinetool/viewer';
 //import pdf from '../Hero/Ghausia_cv.pdf';
 //import pdff from '../Hero/Ghausia_cv(1).pdf';
